@@ -1,4 +1,3 @@
-
 """Custom user model that logs in with email instead of a username."""
 
 from django.contrib.auth.models import AbstractUser, BaseUserManager
