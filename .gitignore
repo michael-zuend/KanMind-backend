@@ -1,7 +1,24 @@
+# Database - never commit
 db.sqlite3
-env/
+*.sqlite3
+
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Environment variables
+.env
+
+# Coverage / test output
 .coverage
 htmlcov/
+
+# Editors / OS
 .vscode/
+.idea/
+.DS_Store
